@@ -1,0 +1,29 @@
+name: tensorflow
+channels:
+  - conda-forge
+  - plotly
+dependencies:
+    - python=3.11
+    - pip>=19.0
+    - jupyter
+    - plotly=5.18.0
+    - scikit-learn
+    - scipy
+    - pandas
+    - pyarrow
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - ipykernel
+    - seaborn
+    - xgboost
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - pip:
+        - tensorflow
+        - bayesian-optimization
