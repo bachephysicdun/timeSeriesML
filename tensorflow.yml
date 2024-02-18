@@ -8,6 +8,8 @@ dependencies:
     - jupyter
     - plotly=5.18.0
     - scikit-learn
+    - feature_engine
+    - sktime
     - scipy
     - pandas
     - pyarrow
