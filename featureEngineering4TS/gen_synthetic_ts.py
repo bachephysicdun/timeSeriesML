@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 # seasonality component
 def complex_seasonality(time, configs):
 
+    # example for config input:
     # config: (amplitude, period, phase_shift)
     # seasonality_configs = [
     #     (2, 365/6, 0),          # Main yearly seasonality
